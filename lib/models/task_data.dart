@@ -8,6 +8,7 @@ class TaskData extends ChangeNotifier{
     Task(name: 'Buy milk'),
     Task(name: 'Buy eggs'),
     Task(name: 'Buy bread'),
+    Task(name: 'Buy banana'),
   ];
 
   UnmodifiableListView<Task> get tasks {
